@@ -15,6 +15,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@astrojs/vue": "^4.2.0",
     "@biomejs/biome": "^1.7.3",
+    "@iconify-json/lucide": "^1.1.187",
     "@sentry/astro": "^7.114.0",
     "@spotlightjs/astro": "^1.0.20",
     "astro": "^4.8.2",

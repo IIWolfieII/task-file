@@ -1,0 +1,23 @@
+---
+import { Icon } from "astro-icon/components";
+
+---
+
+<header class="sticky top-0 flex h-16 items-center justify-end gap-4 bg-glass px-4 md:px-6">
+    <nav class="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
+      <a
+        href="/"
+        class="flex items-center gap-2 transition-colors hover:text-gray-400"
+      >
+        <Icon name="lucide:layout-list" class:list="h-6 w-6" />
+        <span class="sr-only">Task File</span>
+      </a>
+    </nav>
+    
+    <!-- <div class="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
+      <form class="ml-auto flex-1 sm:flex-initial">
+        <div class="relative">
+        </div>
+      </form>
+    </div> -->
+  </header>
